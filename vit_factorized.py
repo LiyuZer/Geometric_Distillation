@@ -173,12 +173,12 @@ def make_hook(container):
 
 #++++++++++++++++++++++++++++++++++++++++++ TRIAL METHOD FOR EXPERIMENTS +++++++++++++++++++++++++++++++++++++++++
 # This runs the training of the factorized ViT with a given rank, and saves the results
-@trial(order=1, values={"rank":[2, 4, 8 ,16, 24, 32, 48, 64, 80, 96, 112, 128, 160, 192, 224, 256], "__parallel__":10}) 
+@trial(order=1, values={"rank":[2, 4, 8 ,16, 24, 32, 48, 64, 80, 96, 112, 128, 160, 192, 224, 256], "__parallel__":13}) 
 def train_factorized(rank):
     # Setup the seeds for reproducibility
-    torch_seed = SETUP["Seed"]["torch_seed"]
-    random_seed = SETUP["Seed"]["random_seed"]
-    numpy_seed = SETUP["Seed"]["numpy_seed"]
+    torch_seed = SETUP.get("Seed", {}).get("torch_seed", 42)
+    random_seed = SETUP.get("Seed", {}).get("random_seed", 42)
+    numpy_seed = SETUP.get("Seed", {}).get("numpy_seed", 42)
     torch.manual_seed(torch_seed)
     torch.cuda.manual_seed_all(torch_seed)
     random.seed(random_seed)
