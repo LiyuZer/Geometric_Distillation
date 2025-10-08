@@ -173,7 +173,7 @@ def make_hook(container):
 
 #++++++++++++++++++++++++++++++++++++++++++ TRIAL METHOD FOR EXPERIMENTS +++++++++++++++++++++++++++++++++++++++++
 # This runs the training of the factorized ViT with a given rank, and saves the results
-@trial(order=1, values={"rank":[2, 4, 8 ,16, 24, 32, 48, 64, 80, 96, 112, 128, 160, 192, 224, 256], "__parallel__":16}) 
+@trial(order=1, values={"rank":[2, 4, 8 ,16, 24, 32, 48, 64, 80, 96, 112, 128, 160, 192, 224, 256], "__parallel__":10}) 
 def train_factorized(rank):
     # Setup the seeds for reproducibility
     torch_seed = SETUP["Seed"]["torch_seed"]
@@ -189,7 +189,7 @@ def train_factorized(rank):
 
     print("Starting training with factorized MLPs in ViT...")
     # Hyperparameters (kept simple/realistic)
-    batch_size = 32
+    batch_size = 24
     num_workers = 2
     lr = 1e-4
     num_epochs = 200
