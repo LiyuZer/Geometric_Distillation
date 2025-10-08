@@ -1,0 +1,300 @@
+{
+    "hypothesis_tree": {
+        "name": "ViTB32 Models converges to a low rank representation when trained on Cifar100.",
+        "created_at": 1759815779.281132,
+        "id": "c897199b-9745-4c6f-a0e1-e360eda31589",
+        "description": "ViTB32 Models converges to a low rank representation when trained on Cifar100.",
+        "conclusion_status": null,
+        "conclusion_notes": "",
+        "concluded_at": null,
+        "children": [
+            {
+                "name": "The effective rank of a ViTB32 model lies in the lower lank regions, delta accuracy / delta rank is greatest in the lower ranks and saturates quickly.",
+                "created_at": 1759815885.9533992,
+                "id": "3bb74ec0-c5d6-4c54-86f4-216b906adcc0",
+                "description": "The effective rank of a ViTB32 model lies in the lower lank regions, delta accuracy / delta rank is greatest in the lower ranks and saturates quickly.",
+                "conclusion_status": null,
+                "conclusion_notes": "",
+                "concluded_at": null,
+                "children": [],
+                "experiments": [
+                    {
+                        "name": "exp_1_variable_ranks",
+                        "created_at": 1759815927.1828587,
+                        "id": "efd3aac1-99ca-4064-afcd-60f11240ac2a",
+                        "description": "",
+                        "file_path": "vit_factorized.py",
+                        "status": "running",
+                        "runs": {
+                            "3b93601b": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        },
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        },
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        },
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        },
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        },
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        },
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        },
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        },
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        },
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        },
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        },
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        },
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            },
+                            "62fc40e5": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            },
+                            "a69db92c": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'collections.OrderedDict' object has no attribute 'parameters'",
+                                            "type": "AttributeError"
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            },
+                            "9c1f4e21": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "'EncoderBlock' object has no attribute 'MultiheadAttention'",
+                                            "type": "AttributeError"
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            },
+                            "5e9b86f9": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "name 'FactorizedEncoderBlock' is not defined",
+                                            "type": "NameError"
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            },
+                            "16a5ed10": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "name 'FactorizedEncoderBlock' is not defined",
+                                            "type": "NameError"
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            },
+                            "0640da58": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "name 'FactorizedEncoderBlock' is not defined",
+                                            "type": "NameError"
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            },
+                            "39f8e94d": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "Epoch 1/200:   0%|          | 0/3125 [00:00<?, ?it/s]\nEpoch 1/200:   0%|          | 0/3125 [00:00<?, ?it/s]\n{\"error\": \"'tuple' object has no attribute 'detach'\", \"type\": \"AttributeError\"}"
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            },
+                            "3e1d4d14": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "Epoch 1/200:   0%|          | 0/3125 [00:00<?, ?it/s]\nEpoch 1/200:   0%|          | 0/3125 [00:00<?, ?it/s]\n{\"error\": \"'tuple' object has no attribute 'detach'\", \"type\": \"AttributeError\"}"
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            },
+                            "f5d6d3ee": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "result": {
+                                                "final_accuracy": 0.0,
+                                                "final_loss": 0.5664305652809143,
+                                                "rank": 32
+                                            },
+                                            "success": true
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "experiments": []
+    },
+    "head_hypothesis_id": "3bb74ec0-c5d6-4c54-86f4-216b906adcc0",
+    "environment_path": null
+}
