@@ -24,7 +24,7 @@
                         "id": "efd3aac1-99ca-4064-afcd-60f11240ac2a",
                         "description": "",
                         "file_path": "vit_factorized.py",
-                        "status": "running",
+                        "status": "inconclusive",
                         "runs": {
                             "3b93601b": {
                                 "trials": [
@@ -278,6 +278,326 @@
                                                 "final_accuracy": 0.0,
                                                 "final_loss": 0.5664305652809143,
                                                 "rank": 32
+                                            },
+                                            "success": true
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            },
+                            "8a950f16": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "name 'SETUP' is not defined",
+                                            "type": "NameError"
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            },
+                            "eba08a07": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "success": false,
+                                            "return_code": 1,
+                                            "error": "name 'SETUP' is not defined",
+                                            "type": "NameError"
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            },
+                            "bfa16282": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "result": {
+                                                "final_accuracy": 8.77,
+                                                "final_loss": 1.3755197930587688,
+                                                "rank": 2
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 9.6,
+                                                "final_loss": 1.1664804608602213,
+                                                "rank": 4
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 12.2,
+                                                "final_loss": 0.9731882353261427,
+                                                "rank": 8
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 14.4,
+                                                "final_loss": 0.8115675957040457,
+                                                "rank": 16
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 16.89,
+                                                "final_loss": 0.7367764360730799,
+                                                "rank": 24
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 16.74,
+                                                "final_loss": 0.6863665888640107,
+                                                "rank": 32
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 16.41,
+                                                "final_loss": 0.6355959223636968,
+                                                "rank": 48
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 17.5,
+                                                "final_loss": 0.6013121320767733,
+                                                "rank": 64
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 20.11,
+                                                "final_loss": 0.5716187319148067,
+                                                "rank": 80
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 20.78,
+                                                "final_loss": 0.5528811083359362,
+                                                "rank": 96
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 21.98,
+                                                "final_loss": 0.534773152557536,
+                                                "rank": 112
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 23.53,
+                                                "final_loss": 0.5189921856069519,
+                                                "rank": 128
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 24.29,
+                                                "final_loss": 0.497263013258319,
+                                                "rank": 160
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 25.31,
+                                                "final_loss": 0.4767187572372166,
+                                                "rank": 192
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 27.14,
+                                                "final_loss": 0.4638635766140101,
+                                                "rank": 224
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 25.41,
+                                                "final_loss": 0.45475180798894843,
+                                                "rank": 256
+                                            },
+                                            "success": true
+                                        }
+                                    ]
+                                },
+                                "verification_results": {
+                                    "factorized_data_verification": "inconclusive"
+                                },
+                                "status": "inconclusive"
+                            },
+                            "c88cd4b4": {
+                                "trials": [
+                                    "train_factorized"
+                                ],
+                                "results": {
+                                    "train_factorized": [
+                                        {
+                                            "result": {
+                                                "final_accuracy": 19.53,
+                                                "final_loss": 0.9266537078397059,
+                                                "rank": 2
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 32.15,
+                                                "final_loss": 0.790701513069605,
+                                                "rank": 4
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 48.69,
+                                                "final_loss": 0.6285925449771296,
+                                                "rank": 8
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 62.68,
+                                                "final_loss": 0.4221852790142433,
+                                                "rank": 16
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 67.01,
+                                                "final_loss": 0.3143784112641999,
+                                                "rank": 24
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 69.46,
+                                                "final_loss": 0.24816322124307535,
+                                                "rank": 32
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 71.17,
+                                                "final_loss": 0.16598039462933614,
+                                                "rank": 48
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 72.23,
+                                                "final_loss": 0.12250959876059571,
+                                                "rank": 64
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 72.67,
+                                                "final_loss": 0.09577370773564717,
+                                                "rank": 80
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 72.57,
+                                                "final_loss": 0.07946288662528236,
+                                                "rank": 96
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 72.56,
+                                                "final_loss": 0.06727916859590848,
+                                                "rank": 112
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 72.69,
+                                                "final_loss": 0.057318468000775565,
+                                                "rank": 128
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 73.28,
+                                                "final_loss": 0.046004583923264106,
+                                                "rank": 160
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 72.96,
+                                                "final_loss": 0.03813180285139499,
+                                                "rank": 192
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 73.43,
+                                                "final_loss": 0.03449632279260259,
+                                                "rank": 224
+                                            },
+                                            "success": true
+                                        },
+                                        {
+                                            "result": {
+                                                "final_accuracy": 72.96,
+                                                "final_loss": 0.02981718423402727,
+                                                "rank": 256
                                             },
                                             "success": true
                                         }

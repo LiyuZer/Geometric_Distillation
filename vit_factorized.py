@@ -80,7 +80,7 @@ def setup_base_model():
     val_losses = []
     val_accuracies = []
     # Training loop
-    num_epochs = 15
+    num_epochs = 20
     for epoch in range(num_epochs):
         model.train()
         running_loss = 0.0
@@ -173,7 +173,7 @@ def make_hook(container):
 
 #++++++++++++++++++++++++++++++++++++++++++ TRIAL METHOD FOR EXPERIMENTS +++++++++++++++++++++++++++++++++++++++++
 # This runs the training of the factorized ViT with a given rank, and saves the results
-@trial(order=1, values={"rank":[2, 4, 8 ,16, 24, 32, 48, 64, 80, 96, 112, 128, 160, 192, 224, 256], "__parallel__":13}) 
+@trial(order=1, values={"rank":[2, 4, 8 ,16, 24, 32, 48, 64, 80, 96, 112, 128, 160, 192, 224, 256], "__parallel__":7}) 
 def train_factorized(rank):
     # Setup the seeds for reproducibility
     torch_seed = SETUP.get("Seed", {}).get("torch_seed", 42)
