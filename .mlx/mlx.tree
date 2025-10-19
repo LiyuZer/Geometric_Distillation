@@ -611,10 +611,21 @@
                         }
                     }
                 ]
+            },
+            {
+                "name": "Geometric Distillation performs significantly better than pure distillation.",
+                "created_at": 1760831423.5728931,
+                "id": "2b3e5360-a4b7-49af-9262-d9b589da7c92",
+                "description": "Geometric Distillation performs significantly better than pure distillation.",
+                "conclusion_status": null,
+                "conclusion_notes": "",
+                "concluded_at": null,
+                "children": [],
+                "experiments": []
             }
         ],
         "experiments": []
     },
-    "head_hypothesis_id": "3bb74ec0-c5d6-4c54-86f4-216b906adcc0",
+    "head_hypothesis_id": "2b3e5360-a4b7-49af-9262-d9b589da7c92",
     "environment_path": null
 }
